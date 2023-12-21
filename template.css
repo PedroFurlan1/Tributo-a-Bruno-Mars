@@ -1,0 +1,175 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 160px;
+    background-color: rgb(231, 99, 99);
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+div a {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo img {
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li {
+    margin: 10px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+ul li:hover {
+    background-color: rgb(192, 18, 18);
+}
+
+li a {
+    text-decoration: none;
+    color: black
+}
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container2 {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.perfil_foto {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.perfil_foto img{ 
+    border: 2px solid black;
+}
+
+.paragrafo_principal {
+    text-align: center;
+    padding: 15px;
+}
+
+.paragrafo_principal p {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: center;
+    margin-bottom: 100px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.sec3 {
+    display: flex;
+    justify-content: center;
+}
+
+.alb1, .alb3, .alb2, .alb4 {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    width: 556px;
+    background-color: rgb(231, 99, 99); 
+    border: 2px solid black;
+}
+
+.alb1 img, .alb3 img, .alb2 img, .alb4 img {
+    width: 300px;
+    height: 300px;
+}
+
+.alb1 p, .alb3 p, .alb2 p, .alb4 p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: 100px;
+}
+
+.container4 img {
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.container4 p {
+    margin: 20px;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: rgb(231, 99, 99);
+}
+
+.sec5 {
+    display: flex;
+    background-color: rgb(192, 18, 18); ;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.container5 p {
+    font-size: 20px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+
